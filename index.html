@@ -1,0 +1,9 @@
+<script>
+    const params = new URLSearchParams(window.location.search);
+    const redirectLink = params.get('redirectLink');
+
+    if (redirectLink) {
+    window.location.href = redirectLink;
+    }
+
+</script>
